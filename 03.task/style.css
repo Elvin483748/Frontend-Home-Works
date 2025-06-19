@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+
+}
+.container .left-section{
+    background-color: rgb(238, 214, 214);
+    width: 45%;
+    height: 100vh;
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-section img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: none;
+}
+.left-section h2{
+font-size: 1.6rem;
+margin-top: 20px;
+}
+.left-section p{
+    font-size: 1.1rem;
+    color: rgb(85, 85, 85);
+    margin-top: 20px;
+}
+.left-section button{
+    margin-top: 30px;
+    width: 220px;
+    height: 40px;
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+}
+.left-section .icons{
+margin-top: 20px;
+display: flex;
+gap: 20px;
+font-size: 22px;
+}
